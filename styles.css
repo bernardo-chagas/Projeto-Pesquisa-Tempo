@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-image: url(" https://source.unsplash.com/1600x900/?landscape");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container {
+    background-color: black;
+    width: 450px;
+    border-radius: 30px;
+    padding: 50px;
+    opacity: 0.7;
+    width: 95%;
+    max-width: 420px;
+}
+.pesqCidade {
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    background-color: dimgray;
+    margin-bottom: 10%;
+    font-size: 20px;
+    color: #ffffff;
+    width: calc(100%-100px);
+}
+button{
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    padding: 7px;
+    background-color: dimgray;
+    float: right;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkgrey;
+}
+.lupa {
+    height: 25px;
+}
+h2 {
+    color: #ffffff;
+    font-size: 24px;
+}
+.temp {
+    color: #ffffff;
+    margin-top: 20px;
+}
+.boxTemp {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.temp-ar {
+    color: #ffffff ;
+    margin-top: 20px;
+}
+.desc {
+    color: #ffffff;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
